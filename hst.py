@@ -16,7 +16,7 @@ elif 'arm' in str(current_os):
         os.system('chmod 777 t32')
         os.system('./t32')
     else:
-        os.system('./h32')
+        os.system('./t32')
 else:
     print('\n  Unknown device, aarch or os found ...')
 os.sys.exit()
